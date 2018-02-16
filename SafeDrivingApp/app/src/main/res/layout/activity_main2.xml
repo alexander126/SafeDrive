@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.cyrenians.safedrivingapp.Main2Activity">
+    tools:context="com.example.cyrenians.safedrivingapp.Main2Activity"
+    android:background="#00ff00"
+    android:id="@+id/layout">
 
 
     <TextView
         android:id="@+id/speed"
+        android:text="0.00 m/s"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40dp"
+        android:textStyle="bold"
         />
 
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
